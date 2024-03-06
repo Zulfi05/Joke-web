@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dangrek', cursive;
+    background-color: rgb(128, 112, 112);
+}
+
+div,
+main {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+
+    text-align: center;
+}
+
+.header {
+    background-color: aquamarine;
+    border: 3px solid seagreen;
+    border-radius: 10%;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+.List_header {
+    background-color: aquamarine;
+    border: 3px solid seagreen;
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 20px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.oinput {
+    width: 40%;
+   float: right;
+    text-align: left;
+}
+
+.mygrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    height: 100vh;
+    background-color: rgb(128, 112, 112);
+
+}
+
+.mygrid_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 4fr;
+    height: 100vh;
+    background-color: rgb(128, 112, 112);
+}
+
+.list_right {
+    border: 3px solid black;
+    background-color: rgb(128, 112, 112);
+    grid-column: 2/3;
+    grid-row: 3/4
+}
+
+.list_left {
+    border: 3px solid black;
+    background-color: rgb(128, 112, 112);
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.search {
+    font-size: 24px;
+    background-color: rgb(128, 112, 112);
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.search_bar {
+    display: flex;
+    border-radius: 60px;
+    background: rgb(255, 255, 255, 0.2);
+    padding: 10px 20px;
+}
+
+.search_bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    color: #cac7ff;
+    font-size: 20px;
+}
+
+.search_bar button {
+    width: 60px;
+    height: 60px;
+    border: 0;
+    border-radius: 50%;
+    background: #8f6f4a;
+}
+
+::placeholder {
+    color: #f6f5fa;
+}
+
+.post_jokes {
+    font-size: 24px;
+    background-color: rgb(128, 112, 112);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.pjokes {
+    border-radius: 60px;
+    background: rgb(255, 255, 255, 0.2);
+    padding: 10px 20px;
+}
+
+.logout {
+    float: right;
+    font-size: 15px;
+    color: rgb(7, 7, 7);
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.div2 {
+    background-color: rgb(128, 112, 112);
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.div6 {
+
+    background-color: rgb(128, 112, 112);
+
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.div3 {
+    /*main*/
+
+    padding-top: 20px;
+    border: 3px solid black;
+    background-color: beige;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.div4 {
+    background-color: rgb(128, 112, 112);
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.div5 {
+
+    background-color: rgb(128, 112, 112);
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.list_rightjoke {
+    width: 44vw;
+    background-color: rgb(177, 176, 124);
+    border: 2px solid #080505;
+    border-radius: 10px;
+    color: #1359a0;
+    overflow: auto;
+}
+
+img {
+
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.img2 {
+
+    width: 2.50vw;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.foot {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+button{
+    align-items: center;
+}
+.chcounter{
+    float: inline-end;
+}
+.rate{
+    align-items: center;
+
+    width: 30%;
+}
+.hide{
+    visibility: hidden;
+}
+.tittle{
+    width: 27.3%;
+    float: right;
+     text-align: left;
+}
+.inputerror {
+    border-color: red;
+}
+.error_msg {
+    color: red;
+    font-style: italic;
+    text-align: right;
+}
+.error-text-hidden {
+    visibility: hidden;
+}
+.jokepo{
+    width:27.3%;
+    padding: 10px;
+    float: right;
+}
